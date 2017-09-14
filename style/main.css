@@ -1,9 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* hurr durr box of border */
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header, section, nav, main, article {
+    display: block;
+    width: 100vw;
+    padding: 15px 10px;
+    text-align: center;
+}
+
 page {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
 }
 
-menu {
+nav {
     background-color: #5995DA;
     height: 80px;
 }
@@ -31,4 +52,25 @@ article2 {
 
 article3 {
     background-color: #C8C6FA;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF; /* Blue */
+  }
 }
