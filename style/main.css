@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color: white;
+    color: #757575;
 }
 
 /* hurr durr box of border */
@@ -26,7 +26,7 @@ page {
 
 nav {
     background-color: #5995DA;
-    height: 80px;
+    height: 40px;
 }
 
 header {
@@ -42,35 +42,44 @@ signup {
     background-color: #D6E9FE;
 }
 
+/* bg my mane */
+.bgyellow {
+    background-color: #F5CF8E;
+}
+.bgred {
+    background-color: #F09A9D;
+}
+.bgpurple {
+    background-color: #C8C6FA;
+}
+
 article {
     background-color: #F5CF8E;
 }
 
-article2 {
-    background-color: #F09A9D;
-}
-
-article3 {
-    background-color: #C8C6FA;
-}
-
-/* Mobile Styles */
+/* mobil styl */
 @media only screen and (max-width: 400px) {
   body {
     background-color: #F09A9D; /* Red */
   }
 }
 
-/* Tablet Styles */
+/* table style */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
     background-color: #F5CF8E; /* Yellow */
   }
+    signup, article {
+        width: 50%;
+    }
 }
 
-/* Desktop Styles */
+/* deskto style */
 @media only screen and (min-width: 961px) {
   body {
     background-color: #B2D6FF; /* Blue */
   }
+    article {
+        width: 33.33333333333333333333333333333333333333333333333333333%;
+    }
 }
