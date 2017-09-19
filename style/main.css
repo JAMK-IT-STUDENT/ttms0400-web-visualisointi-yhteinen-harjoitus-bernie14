@@ -13,7 +13,6 @@ body {
 }
 
 header, section, nav, main, article {
-    display: block;
     width: 100vw;
     padding: 15px 10px;
     text-align: center;
@@ -38,7 +37,7 @@ main {
     height: 600px;
 }
 
-signup {
+section {
     background-color: #D6E9FE;
 }
 
@@ -69,7 +68,7 @@ article {
   body {
     background-color: #F5CF8E; /* Yellow */
   }
-    signup, article {
+    section, article {
         width: 50%;
     }
 }
