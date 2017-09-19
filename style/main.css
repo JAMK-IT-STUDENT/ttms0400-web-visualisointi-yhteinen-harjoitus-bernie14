@@ -65,9 +65,9 @@ article {
 
 /* table style */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #F5CF8E; /* Yellow */
-  }
+    body {
+        background-color: #F5CF8E; /* Yellow */
+    }
     section, article {
         width: 50%;
     }
@@ -75,10 +75,32 @@ article {
 
 /* deskto style */
 @media only screen and (min-width: 961px) {
-  body {
-    background-color: #B2D6FF; /* Blue */
-  }
+    header {
+        height: 400px;
+    }
+    page {
+        width: 960px;
+        margin: 0 auto;
+    }
+    
+    article {
+        width: 33%;
+    }
+    
+    body {
+        background-color: #B2D6FF; /* Blue */
+    }
+    
     article {
         width: 33.33333333333333333333333333333333333333333333333333333%;
+    }
+    
+    section {
+        height: 100px;
+        order: 1;
+    }
+    
+    main {
+        order: 2;
     }
 }
