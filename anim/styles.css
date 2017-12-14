@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    background-color: #1f1f1f;
+    display: flex;
+}
+
+.videohide {
+    display: none;
+    margin: auto;
+}
+
+.gachi {
+    width: 195px;
+    height: 125px;
+    margin-top: 4em;
+}
+
+#forsen {
+    width: 90%;
+    height: 214px;
+    margin: 10px;
+    border: 1px transparent black;
+    border-radius: 5px;
+}
+
+#thing
+{
+    margin: auto;
+    color: white;
+    text-align: center;
+    width:200px;
+    height:350px;
+    animation: mememagia 0.5s ease-in-out 5s alternate infinite;
+}
+
+@keyFrames mememagia
+{
+    0% {
+        background-color: #f500ff;
+        width: 300px;
+    }
+    25% {
+        background-color: #db0707;
+        width: 400px;
+    }
+    50% {
+        background-color: #ff7600;
+        width: 500px;
+    }
+    75% {
+        background-color: #89ff00;
+        width: 400px;
+    }
+    100% {
+        background-color: #6975ff;
+        width: 300px;
+    }
+}
