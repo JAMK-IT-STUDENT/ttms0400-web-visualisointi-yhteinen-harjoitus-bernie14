@@ -1,0 +1,81 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nappula {
+    width: 200px;
+    height: 100px;
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #4388FF;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.nappula:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+  background-color: #90B9FF; 
+}
+.nappula:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background-color: #366DCC;
+}
+
+
+
+.nappula2 {
+    width: 200px;
+    height: 100px;
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #ed3737;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+.nappula2:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+    width: 250px;
+    height: 125px;
+  background-color: #ef6767; 
+}
+.nappula2:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background-color: #8b0e0e;
+}
+
+
+
+.nappula3 {
+    width: 200px;
+    height: 100px;
+  padding: 20px 40px;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+  background-color: #ffe243;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+    transition: 0.5s;
+}
+.nappula3:hover {
+  /* SASSissa käyttäisimme tähän lighten-funktiota! */ 
+  background-color: #ef5fe9; 
+    width: 400px;
+    height: 200px;
+    transform: rotate(360deg);
+}
+.nappula3:active {
+  /* Täällä voisimme käyttää darken-funktiota, jos kirjoittelisimma SASS/LESS.. */
+  background-color: #b70c62;
+}
