@@ -10,4 +10,4 @@ bootstrap kokeilu: https://jamk-it-student.github.io/ttms0400-web-visualisointi-
 
 napit: https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-bernie14/vko44/
 
-animaatio: https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-bernie14/anim/
+animaatio huom: animaatio ei ala heti: https://jamk-it-student.github.io/ttms0400-web-visualisointi-yhteinen-harjoitus-bernie14/anim/
