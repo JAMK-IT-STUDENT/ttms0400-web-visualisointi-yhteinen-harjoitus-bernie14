@@ -4,7 +4,10 @@ body {
     display: flex;
 }
 
-
+.videohide {
+    display: none;
+    margin: auto;
+}
 
 .gachi {
     width: 195px;
